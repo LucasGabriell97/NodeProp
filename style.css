@@ -1,5 +1,4 @@
 /*=========== RESET ==========*/
-
 * {
     margin: 0; 
     padding: 0; 
@@ -27,7 +26,6 @@ img {max-width: 100%;}
     padding: 3% 4%; 
     text-align: center;
 }
-
 /*=========== BG COLORS ==========*/
 
 .bg-gradient {background: linear-gradient(to right,#ce2e3c,#da6709);}
@@ -40,12 +38,17 @@ img {max-width: 100%;}
 
 .radius {border-radius: 7px;}
 
-/* CABEÇALHO */
+/* HEADER */
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+}
 
 .logo {
     width: 56px; 
     height: 56px; 
-    float: left; 
+    /*float: left;*/ 
     background: url(../img/logo-mobile.png) center center/56px no-repeat;
     font-size: 0;
 }
@@ -53,13 +56,12 @@ img {max-width: 100%;}
 .btn-menu {
     width: 56px; 
     height: 56px; 
-    float: right; 
+    /*float: right;*/ 
     text-align: center; 
     color: #fff; 
     border-radius:56px; 
     cursor: pointer;
 }
-
 /* MENU */
 
 .menu {
@@ -68,6 +70,8 @@ img {max-width: 100%;}
     height: 100%; 
     position: fixed; 
     background-color: rgba(0,0,0,0.9); top: 0; left: 0;
+    top: 0;
+    left: 0;
 }
 
 .btn-close {
@@ -112,11 +116,11 @@ img {max-width: 100%;}
 }
 
 .buttons {
+    display: flex;
+    flex-direction: column;
     width: 100%; 
-    margin-top: 2%;
+    /*margin-top: 2%;*/
 }
-
-.buttons i {float: right;}
 
 .btn {
     width: 100%; 
@@ -126,7 +130,10 @@ img {max-width: 100%;}
     padding: 5%; 
 }
 
-.btn-cadastrar {color: #130400;}
+.btn-cadastrar {
+    color: #130400;
+    margin-top: 2%;
+}
 
 .btn-sobre {
     color:#fff ; 
@@ -161,6 +168,7 @@ img {max-width: 100%;}
     margin-top: 6%; 
     color: #130400; 
     line-height: 1.5em;
+    text-align: justify;
 }
 
 /* NEWSLETTER */
@@ -190,7 +198,7 @@ img {max-width: 100%;}
     margin-top: 2%; 
 }
 
-/* RODAPÉ */
+/* FOOTER */
 
 .social-icons a {
     font-size: 1.5em; 
@@ -198,7 +206,7 @@ img {max-width: 100%;}
     margin-right: 3%;
 }
 
-.social-icons a:last-child {margin-right: 0;}
+.social-icons a:last-child {margin-right: 0;} /* Tira a margin do último ícone para não ter conflito */
 
 .social-icons a:hover {color: rgb(255,255,255);}
 
@@ -207,117 +215,152 @@ img {max-width: 100%;}
     margin-top:2%;
 }
 
+/* MEDIA TYPES
+screen
+Para monitores ou dispositivos com telas coloridas e resolução adequada.
+print
+Para impressoras. Muito usado para dar uma versão de impressão do site.
+*/
+
+/* @media print {
+    .title h2 {
+        font-size: 2.5em;
+        color: red;
+        font-weight: 700;
+    }
+
+    .title h3 {
+        font-size: 1.5em;
+        color: blue;
+    }
+} */
+
 /* ========== MOBILE FIRST ==========*/
 
 /* SMALL DEVICES - SMARTPHONES */
 
 @media screen and (min-width: 480px) {
-.logo {
-    width: 214px; 
-    background: url(../img/logo.png) center center/214px no-repeat;
-}
+    .logo {
+        width: 214px; 
+        background: url(../img/logo.png) center center/214px no-repeat;
+    }
 
-.btn {font-size: 2em;}
+    .btn {font-size: 2em;}
 }
 
 /* SMALL DEVICES - TABLETS*/
 
 @media screen and (min-width: 768px) {
-.servico {
-    width: 49%; 
-    float: left; 
-    margin-right: 2%;
-}
+    .servicos {
+        display: flex;
+        flex-wrap: wrap;
+    }
 
-.servico:nth-child(2){margin-right: 0;}
+    .servico {
+        width: 49%; 
+        float: left; 
+        margin-right: 2%;
+    }
 
-.newsletter h2 {font-size: 2em;}
+    .servico:nth-child(2){margin-right: 0;}
 
-.newsletter h3 {font-size: 1.5em;}
+    .newsletter h2 {font-size: 2em;}
 
-.newsletter input {
-    width: 70%; 
-    padding: 2%; 
-    float: left; 
-    margin-right: 1%;
-}
+    .newsletter h3 {font-size: 1.5em;}
 
-.newsletter button {
-    width: 29%; 
-    padding: 2%; 
-    float: right; 
-    margin-top: 0;
-}
+    .newsletter form {display: flex;}
+
+    .newsletter input {
+        width: 70%; 
+        padding: 2%; 
+        margin-right: 1%;
+    }
+
+    .newsletter button {
+        width: 29%; 
+        padding: 2%; 
+        margin-top: 0;
+    }
 
 }
 
 /* MEDIUM DEVICES - TABLETS & DESKTOPS*/
 
 @media screen and (min-width: 960px) {
-.title {
-    width: 70%; 
-    float: left; 
-    text-align: left;
+    .banner {display: flex;}
+
+    .title {
+        width: 70%;  
+        text-align: left;
+    }
+
+    .title h2 {font-size: 3em;}
+
+    .title h3 {font-size: 2em;}
+
+    .buttons {
+        width: 30%; 
+        padding-bottom: 8px;
+    }
+
+    .servicos {
+        display: flex; 
+        flex-wrap: nowrap;
+    }
+
+    .servico {
+        width: 32%; 
+        margin-right: 2%;
+    }
+
+    .servico:nth-child(2){margin-right: 2%;}
+
+    .servico:nth-child(3){margin-right: 0;}
+
+    .newsletter input {
+        width: 60%; 
+        float: none;
+        margin-left: 9%;
+    }
+
+    .newsletter button {
+        width: 20%; 
+        float: none;
+    }
+
 }
 
-.title h2 {font-size: 3em;}
-
-.title h3 {font-size: 2em;}
-
-.buttons {
-    width: 30%; 
-    float: right; 
-    margin-top: 0; 
-}
-
-.servico {width: 32%; }
-
-.servico:nth-child(2){margin-right: 2%;}
-
-.servico:nth-child(3){margin-right: 0;}
-
-.newsletter input {
-    width: 60%; 
-    float: none;
-}
-
-.newsletter button {
-    width: 20%; 
-    float: none;
-}
-
-}
 /* LARGE DEVICES - WIDE SCREENS*/
 
 @media screen and (min-width: 1280px) {
-.btn-menu {display: none;}
+    .btn-menu {display: none;}
 
-.btn-close {display: none;}
+    .btn-close {display: none;}
 
-.menu {
-    width: auto; 
-    height: 56px; 
-    line-height: 56px; 
-    float: right; 
-    background-color: #f5f5f5; 
-    display: block !important; position: static;
-}
+    .menu {
+        width: auto; 
+        height: 56px; 
+        line-height: 56px; 
+        float: right; 
+        background-color: #f5f5f5; 
+        display: block !important; position: static;
+    }
 
-.menu li {
-    padding: 0; 
-    float: left;
-}
+    .menu li {
+        padding: 0; 
+        float: left;
+    }
 
-.menu li a {
-    color:#130400; 
-    font-size: 1em; 
-    padding: 15px; 
-}
+    .menu li a {
+        color:#130400; 
+        font-size: 1em; 
+        padding: 15px; 
+    }
 
-.menu li a:hover {
-    border: none; 
-    color:#da6709; 
-}
+    .menu li a:hover {
+        border: none; 
+        color:#da6709; 
+    }
 
 }
 
