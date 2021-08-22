@@ -4,7 +4,7 @@ Esse foi um projeto de um curso de Design Responsivo do canal Node Studio Treina
 
 === OBSERVAÇÃO ===
 
-Nesse projeto o professor faz uso total da propriedade FLOAT, então resolvi usar a propriedade FLEXBOX em alguns momentos que achei mais vantajoso e por ser uma propriedade mais recomendada.
+Nesse projeto o professor faz uso total da propriedade FLOAT, então resolvi por conta própria usar a propriedade FLEXBOX em alguns momentos que achei mais vantajoso e por ser uma propriedade mais recomendada.
 
 === LINK DO CURSO ===
 
