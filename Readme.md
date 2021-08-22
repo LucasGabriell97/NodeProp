@@ -1,6 +1,6 @@
 === SOBRE O PROJETO ===
 
-Esse foi um projeto de um curso de Design Responsivo do canal Node Studio Treinamentos, nele o professor ensina a desenvolver o layout começando pelo tamanho de tela de um smartphone até chegar em desktop, usando apenas HTML e CSS.
+Esse foi um projeto de um curso de Design Responsivo do canal Node Studio Treinamentos, nele o professor ensina a desenvolver o layout começando pelo tamanho de tela de um smartphone até chegar em desktop. Usando apenas HTML, CSS e um pouco de JQUERY.
 
 === OBSERVAÇÃO ===
 
