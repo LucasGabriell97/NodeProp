@@ -9,3 +9,7 @@ Nesse projeto o professor faz uso total da propriedade FLOAT, então resolvi por
 === LINK DO CURSO ===
 
 https://www.youtube.com/watch?v=Z7z8J12hMco&list=PLwXQLZ3FdTVFi6oHo_K4IYDcwCU5-f1x5
+
+=== LINK DO SITE ===
+
+https://lucasgabriell97.github.io/NodeProp/
