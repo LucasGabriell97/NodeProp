@@ -8,7 +8,7 @@
 
 ## 📚 Sobre o projeto
 
-Esse foi um projeto de um curso de Design Responsivo do canal Node Studio Treinamentos, nele é ensinado a desenvolver o layout começando pelo tamanho de tela de um smartphone até chegar em desktop.
+Esse foi um projeto de um curso de Design Responsivo do canal Node Studio Treinamentos, nele é ensinado a desenvolver o layout utilizando o conteito de Mobile First, onde o foco inicial da arquitetura e desenvolvimento é direcionado aos dispositivos móveis e em seguida adaptar para tablets e desktops.
 
 💡<b>Observação</b>: Nesse projeto o professor faz uso total da propriedade FLOAT para posicionamento dos elementos, então resolvi usar a abordagem mais moderna com a propriedade <strong>Flexbox</strong> nos momentos que achei mais vantajoso. 🚀
 
