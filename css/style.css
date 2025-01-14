@@ -1,4 +1,4 @@
-/*=========== RESET ==========*/
+/*=========== RESET ===*/
 * {
     margin: 0; 
     padding: 0; 
@@ -18,28 +18,24 @@ ul {list-style: none;}
 
 img {max-width: 100%;}
 
-/*=========== CONTAINER ==========*/
-
+/*=========== CONTAINER ===*/
 .container {
     width: 100%; 
-    float: left; 
     padding: 3% 4%; 
     text-align: center;
 }
-/*=========== BG COLORS ==========*/
 
+/*=========== BG COLORS ===*/
 .bg-gradient {background: linear-gradient(to right,#ce2e3c,#da6709);}
 
 .bg-black {background-color: #130400;}
 
 .bg-white {background-color: #fff;}
 
-/*=========== HELPERS ==========*/
-
+/*=========== HELPERS ===*/
 .radius {border-radius: 7px;}
 
 /* HEADER */
-
 .cabecalho {
     display: flex;
     justify-content: space-between;
@@ -48,22 +44,20 @@ img {max-width: 100%;}
 .logo {
     width: 56px; 
     height: 56px; 
-    /*float: left;*/ 
-    background: url(../img/logo-mobile.png) center center/56px no-repeat;
+    background: url(../assets/images/logo-mobile.png) center center/56px no-repeat;
     font-size: 0;
 }
 
 .btn-menu {
     width: 56px; 
     height: 56px; 
-    /*float: right;*/ 
     text-align: center; 
     color: #fff; 
     border-radius:56px; 
     cursor: pointer;
 }
-/* MENU */
 
+/* MENU */
 .menu {
     display: none; 
     width: 100%; 
@@ -77,14 +71,14 @@ img {max-width: 100%;}
 .btn-close {
     font-size: 1.5em; 
     color: #fff; 
-    float: right; 
+    float: right;
     cursor: pointer; 
     margin: 2% 3% 0 0;
 }
 
 .menu ul {
     width: 100%; 
-    float: left; 
+    float: left;
     text-align: center;
 }
 
@@ -99,8 +93,7 @@ img {max-width: 100%;}
 .menu li a:hover {border:1px solid #da6709;}
 
 /* BANNER */
-
-.banner {background: url(../img/bg.jpg) no-repeat fixed;}
+.banner {background: url(../assets/images/bg.jpg) no-repeat fixed;}
 
 .title {width: 100%;}
 
@@ -119,7 +112,6 @@ img {max-width: 100%;}
     display: flex;
     flex-direction: column;
     width: 100%; 
-    /*margin-top: 2%;*/
 }
 
 .btn {
@@ -136,12 +128,11 @@ img {max-width: 100%;}
 }
 
 .btn-sobre {
-    color:#fff ; 
+    color:#fff; 
     margin-top: 2%;
 }
 
 /* SERVIÇOS */
-
 .servico {
     width: 100%;  
     text-align: left;  
@@ -172,7 +163,6 @@ img {max-width: 100%;}
 }
 
 /* NEWSLETTER */
-
 .newsletter h2 {
     font-size: 1.5em; 
     color: #fff; 
@@ -199,7 +189,6 @@ img {max-width: 100%;}
 }
 
 /* FOOTER */
-
 .social-icons a {
     font-size: 1.5em; 
     color: rgba(255,255,255,0.7); 
@@ -238,18 +227,16 @@ Para impressoras. Muito usado para dar uma versão de impressão do site.
 /* ========== MOBILE FIRST ==========*/
 
 /* SMALL DEVICES - SMARTPHONES */
-
 @media screen and (min-width: 480px) {
     .logo {
         width: 214px; 
-        background: url(../img/logo.png) center center/214px no-repeat;
+        background: url(../assets/images/logo.png) center center/214px no-repeat;
     }
 
     .btn {font-size: 2em;}
 }
 
 /* SMALL DEVICES - TABLETS*/
-
 @media screen and (min-width: 768px) {
     .servicos {
         display: flex;
@@ -285,7 +272,6 @@ Para impressoras. Muito usado para dar uma versão de impressão do site.
 }
 
 /* MEDIUM DEVICES - TABLETS & DESKTOPS*/
-
 @media screen and (min-width: 960px) {
     .banner {display: flex;}
 

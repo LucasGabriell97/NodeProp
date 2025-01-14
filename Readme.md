@@ -1,15 +1,23 @@
-=== SOBRE O PROJETO ===
+<h1 align="center">
+  💻<br>NodeProp
+</h1>
 
-Esse foi um projeto de um curso de Design Responsivo do canal Node Studio Treinamentos, nele é ensinado a desenvolver o layout começando pelo tamanho de tela de um smartphone até chegar em desktop. Usando apenas HTML, CSS e um pouco de JQUERY.
+![Design preview for the blog-codar](./assets/images/project-image.png)
 
-=== OBSERVAÇÃO ===
+<h4 align="center"><a href="https://centro-boa-forma-nu.vercel.app/" target="_blank">Clique para visitar o projeto</a></h4>
 
-Nesse projeto o professor faz uso total da propriedade FLOAT, então resolvi por conta própria usar a propriedade FLEXBOX em alguns momentos que achei mais vantajoso e por ser uma propriedade mais recomendada.
+## 📚 Sobre o projeto
 
-=== LINK DO CURSO ===
+Esse foi um projeto de um curso de Design Responsivo do canal Node Studio Treinamentos, nele é ensinado a desenvolver o layout começando pelo tamanho de tela de um smartphone até chegar em desktop.
+
+💡<b>Observação</b>: Nesse projeto o professor faz uso total da propriedade FLOAT para posicionamento dos elementos, então resolvi usar a abordagem mais moderna com a propriedade <strong>Flexbox</strong> nos momentos que achei mais vantajoso. 🚀
+
+## 🛠️ Tecnologias utilizadas
+
+• HTML<br>
+• CSS<br>
+• Jquery
+
+## 🔗 Link do curso
 
 https://www.youtube.com/watch?v=Z7z8J12hMco&list=PLwXQLZ3FdTVFi6oHo_K4IYDcwCU5-f1x5
-
-=== LINK DO SITE ===
-
-https://lucasgabriell97.github.io/NodeProp/
