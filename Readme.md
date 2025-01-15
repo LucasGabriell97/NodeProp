@@ -3,14 +3,14 @@
 </h1>
 
 <div align="center">
-  <img src="./assets/images/project-image.png" alt="Design preview for the blog-codar">
+  <img src="./assets/images/project-image.png" alt="Imagem do projeto NodeProp">
 </div>
 
 <h4 align="center"><a href="https://nodeprop-ten.vercel.app/" target="_blank">Clique para visitar o projeto</a></h4>
 
 ## 📚 Sobre o projeto
 
-Esse foi um projeto de um curso de Design Responsivo do canal Node Studio Treinamentos, nele é ensinado a desenvolver o layout utilizando o conteito de Mobile First, onde o foco inicial da arquitetura e desenvolvimento é direcionado aos dispositivos móveis e em seguida adaptar para tablets e desktops.
+Esse foi um projeto de um curso de Design Responsivo do canal <strong>Node Studio Treinamentos</strong>, nele é ensinado a desenvolver o layout utilizando o conteito de <strong>Mobile First</strong>, onde o foco inicial da arquitetura e desenvolvimento é direcionado aos dispositivos móveis e em seguida adaptar para tablets e desktops.
 
 💡<b>Observação</b>: Nesse projeto o professor faz uso total da propriedade FLOAT para posicionamento dos elementos, então resolvi usar a abordagem mais moderna com a propriedade <strong>Flexbox</strong> nos momentos que achei mais vantajoso. 🚀
 
